@@ -6,3 +6,8 @@ source "https://rubygems.org"
 
 gem "typhoeus"
 gem "amazing_print"
+gem 'json'
+gem 'time'
+gem 'date'
+gem 'csv'
+gem 'logger'

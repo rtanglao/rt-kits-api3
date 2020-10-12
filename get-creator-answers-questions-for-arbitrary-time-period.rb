@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
-require 'json'
 require 'rubygems'
+require 'bundler/setup'
 require 'typhoeus'
 require 'amazing_print'
 require 'json'
