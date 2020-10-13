@@ -118,7 +118,7 @@ while !end_program
       logger.debug "NOT skipping"
       csv.push(
         [
-        id, created.to_s, q["updated"].to_s, q["title"], q["content"].tr("\n"," "), 
+        id, created.to_s, updated.to_s, q["title"], q["content"].tr("\n"," "), 
         tag_str, q["product"], q["topic"], q["locale"],
         answers_str, creator
           ])
