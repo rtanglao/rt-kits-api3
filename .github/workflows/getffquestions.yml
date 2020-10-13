@@ -31,7 +31,7 @@ jobs:
         bundle install
     - name: Get FF questions
       run: |-
-        timestamp=$(date -u)
+        timestamp="Tue Oct 13 05:04:45 UTC 2020"
         year=$(date -d $timestamp \"+%Y\")
         month=$(date -d $timestamp \"+%m\")
         day=$(date -d $timestamp \"+%e\")
