@@ -43,6 +43,7 @@ jobs:
         echo "got the year:${year}"
         month=$(date -d "${timestamp}" +\%m)
         day=$(date -d "${timestamp}" +\%e)
+        cd ${year}
         bundle exec ../get-creator-answers-questions-for-arbitrary-time-period.rb ${year} ${month} ${day} ${year} ${month} ${day}
     - name: Commit and push if it changed
       run: |-
