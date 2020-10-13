@@ -1,0 +1,48 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+# This workflow will download a prebuilt Ruby version, install dependencies and run tests with Rake
+# For more information see: https://github.com/marketplace/actions/setup-ruby-jruby-and-truffleruby
+
+name: get latest Firefox desktop questions 
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron:  '6,26,46 * * * *'
+      
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Ruby
+    # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
+    # change this to (see https://github.com/ruby/setup-ruby#versioning):
+    # uses: ruby/setup-ruby@v1
+      uses: ruby/setup-ruby@ec106b438a1ff6ff109590de34ddc62c540232e0
+      with:
+        ruby-version: 2.7
+    - name: Install dependencies
+      run: |-
+        bundle install
+    - name: Get FF questions
+      run: |-
+        timestamp=$(date -u)
+        year=$(date -d $timestamp "+%Y")
+        month=$(date -d $timestamp "+%m")
+        day=$(date -d $timestamp "+%e")
+        cd ${year}
+        bundle exec ../get-creator-answers-questions-for-arbitrary-time-period.rb ${year} ${month} ${day} ${year} $month $day
+        cd ..
+      - name: Commit and push if it changed
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Latest FF desktop questions: ${timestamp}" || exit 0
+        git push
