@@ -43,7 +43,7 @@ jobs:
         year=$(date -d "${timestamp}" +\%Y)
         #year=$(date -d ${ystr})
         # year=$(date -d \$timestamp "+%Y")
-        echo "got the year"
+        echo "got the year:${year}"
         month=$(date -d \$timestamp "+%m")
         day=$(date -d \$timestamp "+%e")
         #year="2020"
