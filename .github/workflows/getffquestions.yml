@@ -31,7 +31,6 @@ jobs:
         bundle install
     - name: Get FF questions
       run: |-
-        date --help
         timestamp=$(date -u)
         year=$(date -d $timestamp \"+%Y\")
         month=$(date -d $timestamp \"+%m\")
