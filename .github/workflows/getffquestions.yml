@@ -34,7 +34,9 @@ jobs:
         #timestamp="Tue Oct 13 05:04:45 UTC 2020"
         timestamp=$(date --utc)
         echo "\"${timestamp}\" +%Y"
+        echo "before initial assigment of ystr"
         ystr = "\"${timestamp}\""
+        echo "AFTER initial assigment of ystr"
         echo "ystr before +=: ${ystr}"
         ystr+= " +%Y"
         echo "ystr:${ystr}"
