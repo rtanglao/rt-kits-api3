@@ -35,7 +35,7 @@ jobs:
         timestamp=$(date --utc)
         echo "\"${timestamp}\" +%Y"
         ystr = "\"${timestamp}\" +%Y"
-        echo "ystr:"$ystr
+        echo "ystr:${ystr}"
         year = $(date -d ${ystr})
         # year=$(date -d \$timestamp "+%Y")
         echo "got the year"
