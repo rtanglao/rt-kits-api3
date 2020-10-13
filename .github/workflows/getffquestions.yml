@@ -33,12 +33,12 @@ jobs:
       run: |-
         #timestamp="Tue Oct 13 05:04:45 UTC 2020"
         timestamp=$(date --utc)
-        #year=$(date -d $timestamp \"+%Y\")
-        #month=$(date -d $timestamp \"+%m\")
-        #day=$(date -d $timestamp \"+%e\")
-        year="2020"
-        month="10"
-        day="13"
+        year=$(date -d $timestamp \"+%Y\")
+        month=$(date -d $timestamp \"+%m\")
+        day=$(date -d $timestamp \"+%e\")
+        #year="2020"
+        #month="10"
+        #day="13"
         cd ${year}
         bundle exec ../get-creator-answers-questions-for-arbitrary-time-period.rb ${year} ${month} ${day} ${year} ${month} ${day}
     - name: Commit and push if it changed
