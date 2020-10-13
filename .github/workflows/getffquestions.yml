@@ -38,9 +38,9 @@ jobs:
         ystr = "\"${timestamp}\""
         echo "AFTER initial assigment of ystr"
         echo "ystr before +=: ${ystr}"
-        ystr+= " +%Y"
+        ystr+=" +%Y"
         echo "ystr:${ystr}"
-        year = $(date -d ${ystr})
+        year=$(date -d ${ystr})
         # year=$(date -d \$timestamp "+%Y")
         echo "got the year"
         month=$(date -d \$timestamp "+%m")
