@@ -40,7 +40,7 @@ jobs:
         echo "ystr before +=: ${ystr}"
         ystr+=" +%Y"
         echo "ystr:${ystr}"
-        year=$(date -d "\"${timestamp}\"" +\%Y)
+        year=$(date -d "${timestamp}" +\%Y)
         #year=$(date -d ${ystr})
         # year=$(date -d \$timestamp "+%Y")
         echo "got the year"
