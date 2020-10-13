@@ -23,7 +23,7 @@ jobs:
     # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
     # change this to (see https://github.com/ruby/setup-ruby#versioning):
     # uses: ruby/setup-ruby@v1
-      uses: ruby/setup-ruby@ec106b438a1ff6ff109590de34ddc62c540232e0
+      uses: ruby/setup-ruby@v1
       with:
         ruby-version: 2.7
     - name: Install dependencies
@@ -33,12 +33,6 @@ jobs:
       run: |-
         timestamp=$(date --utc)
         echo "\"${timestamp}\" +%Y"
-        echo "before initial assigment of ystr"
-        ystr="\"${timestamp}\""
-        echo "AFTER initial assigment of ystr"
-        echo "ystr before +=: ${ystr}"
-        ystr+=" +%Y"
-        echo "ystr:${ystr}"
         year=$(date -d "${timestamp}" +\%Y)
         echo "got the year:${year}"
         month=$(date -d "${timestamp}" +\%m)
