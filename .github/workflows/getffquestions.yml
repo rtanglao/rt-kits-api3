@@ -35,7 +35,7 @@ jobs:
         timestamp=$(date --utc)
         echo "\"${timestamp}\" +%Y"
         echo "before initial assigment of ystr"
-        ystr = "\"${timestamp}\""
+        ystr="\"${timestamp}\""
         echo "AFTER initial assigment of ystr"
         echo "ystr before +=: ${ystr}"
         ystr+=" +%Y"
