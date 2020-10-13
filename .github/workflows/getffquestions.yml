@@ -33,9 +33,9 @@ jobs:
       run: |-
         #timestamp="Tue Oct 13 05:04:45 UTC 2020"
         timestamp=$(date --utc)
-        year=$(date -d \$timestamp \"+%Y\")
-        month=$(date -d \$timestamp \"+%m\")
-        day=$(date -d \$timestamp \"+%e\")
+        year=$(date -d \$timestamp \"\+\%Y\")
+        month=$(date -d \$timestamp \"\+\%m\")
+        day=$(date -d \$timestamp \"\+\%e\")
         #year="2020"
         #month="10"
         #day="13"
