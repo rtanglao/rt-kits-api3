@@ -33,6 +33,7 @@ jobs:
       run: |-
         #timestamp="Tue Oct 13 05:04:45 UTC 2020"
         timestamp=$(date --utc)
+        echo "${timestamp} +%Y"
         year=$(date -d \"${timestamp}\" +\%Y)
         echo "got the year"
         month=$(date -d \$timestamp "+%m")
