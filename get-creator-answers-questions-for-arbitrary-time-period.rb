@@ -88,12 +88,12 @@ while !end_program
     # See https://github.com/mozilla/kitsune/issues/3961 and
     # https://github.com/mozilla/kitsune/issues/3946
     # The above may change in the future if we migrate the Kitsune database to UTC
-    created = Time.parse(q["created"].gsub("Z", "PST")) 
+    created = Time.parse(q["created"].gsub("Z", "America/Vancouver")) # https://github.com/rtanglao/rt-kits-api3/issues/1
     logger.debug "created with PST correction:" + created.to_s
 
     if !updated.nil?
       logger.debug "updated from API:" + updated + "<-- this is PST not UTC despite the 'Z'"
-      updated = Time.parse(q["updated"].gsub("Z", "PST"))
+      updated = Time.parse(q["updated"].gsub("Z", "America/Vancouver")) # https://github.com/rtanglao/rt-kits-api3/issues/1
       logger.debug "updated with PST correction:" + updated.to_s
     end
     
