@@ -12,6 +12,25 @@ require 'logger'
 logger = Logger.new(STDERR)
 logger.level = Logger::DEBUG
 
+def KludgeTimeFromBogusZtoUTC(pst_in_utc_str)
+  pst_in_utc = Time.parse(pst_in_utc_str)
+  old_tz = ENV['TZ']
+  ENV['TZ'] = 'America/Vancouver'
+  t = Time.local(
+    pst_in_utc.year,
+    pst_in_utc.month,
+    pst_in_utc.day,
+    pst_in_utc.hour,
+    pst_in_utc.min,
+    pst_in_utc.sec)
+  # https://github.com/rtanglao/rt-kits-api3/issues/1
+  created = t.dst? ?
+              Time.parse(pst_in_utc_str.gsub("Z", "PDT")) :
+              Time.parse(pst_in_utc_str.gsub("Z", "PST"))
+  ENV['TZ'] = old_tz
+  return created
+end
+
 def getKitsuneResponse(url, params, logger)
   logger.debug url
   logger.debug params
@@ -88,12 +107,13 @@ while !end_program
     # See https://github.com/mozilla/kitsune/issues/3961 and
     # https://github.com/mozilla/kitsune/issues/3946
     # The above may change in the future if we migrate the Kitsune database to UTC
-    created = Time.parse(q["created"].gsub("Z", "America/Vancouver")) # https://github.com/rtanglao/rt-kits-api3/issues/1
+
+    created = KludgeTimeFromBogusZtoUTC(q["created"])
     logger.debug "created with PST correction:" + created.to_s
 
     if !updated.nil?
       logger.debug "updated from API:" + updated + "<-- this is PST not UTC despite the 'Z'"
-      updated = Time.parse(q["updated"].gsub("Z", "America/Vancouver")) # https://github.com/rtanglao/rt-kits-api3/issues/1
+      updated = KludgeTimeFromBogusZtoUTC(q["updated"])
       logger.debug "updated with PST correction:" + updated.to_s
     end
     
