@@ -24,11 +24,11 @@ def KludgeTimeFromBogusZtoUTC(pst_in_utc_str)
     pst_in_utc.min,
     pst_in_utc.sec)
   # https://github.com/rtanglao/rt-kits-api3/issues/1
-  created = t.dst? ?
+  fixed_time = t.dst? ?
               Time.parse(pst_in_utc_str.gsub("Z", "PDT")) :
               Time.parse(pst_in_utc_str.gsub("Z", "PST"))
   ENV['TZ'] = old_tz
-  return created
+  return fixed_time
 end
 
 def getKitsuneResponse(url, params, logger)
