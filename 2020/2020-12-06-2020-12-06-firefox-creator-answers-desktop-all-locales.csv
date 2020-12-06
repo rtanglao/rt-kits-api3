@@ -1,0 +1,2 @@
+id,created,updated,title,content,tags,product,topic,locale,answers,creator
+1316851,2020-12-05 16:07:28 -0800,2020-12-05 16:07:28 -0800,How can I open the bookmarks menu with a shortcut?,"<p>Pressing ctrl+shift+B used to open a new window with all my bookmarks, but now it toggles a toolbar. Is there a way to change that back? </p>",desktop;beta;bookmarks;windows-10;firefox-840;,firefox,bookmarks,en-US,"",oxyfox
