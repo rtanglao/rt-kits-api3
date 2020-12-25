@@ -1,1 +1,3 @@
 id,created,updated,title,content,tags,product,topic,locale,answers,creator
+1319402,2020-12-24 17:01:11 -0800,2020-12-24 17:01:11 -0800,jave.adobe flalsh,<p>java and thenew adode plug i isnt showing up in plugins under addons.. please help </p>,desktop;other;windows-10;firefox-840;firefox-8401;,firefox,other,en-US,"",w.beach
+1319399,2020-12-24 16:16:39 -0800,2020-12-24 16:16:39 -0800,LastPass addon,"<p>With Firefox v84.0 my LastPass vault would open as soon as I Logged in (to LastPass), but since v84.0.1 there is a 30 second delay before the vault opens. Can this either be fixed or can I revert to v84.0? </p>",desktop;other;windows-10;firefox-840;,firefox,other,en-US,"",mhdashper
