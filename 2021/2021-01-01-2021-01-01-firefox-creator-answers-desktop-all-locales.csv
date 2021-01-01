@@ -1,1 +1,3 @@
 id,created,updated,title,content,tags,product,topic,locale,answers,creator
+1320119,2020-12-31 17:21:26 -0800,2020-12-31 17:21:26 -0800,descarga de 2.9gb fallida,"<p>estoy descargando un archivo de 2.9gb pero siempre me falla y eso que la descarga la guardo en un pendrive que tiene 2.23gb, lo unico que se es que mi pc tiene 1 gb de ram aveces tiene menos (entre 300 a 100 mb) </p>",desktop;other;windows-10;firefox-840;,firefox,other,es,"",kirbylink96
+1320118,2020-12-31 16:54:51 -0800,2020-12-31 16:54:51 -0800,Pinned tabs disappear with no apparent cause,<p>What is the cause? How do I stop all pinned tabs being lost after closing and later opening FF. </p>,desktop;tabs;windows-10;firefox-840;,firefox,tabs,en-US,"",jamesosbourneholmes
