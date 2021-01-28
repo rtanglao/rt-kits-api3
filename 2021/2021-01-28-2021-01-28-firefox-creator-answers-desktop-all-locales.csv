@@ -1,0 +1,2 @@
+id,created,updated,title,content,tags,product,topic,locale,answers,creator
+1323495,2021-01-27 16:00:20 -0800,2021-01-27 16:00:20 -0800,Unable to see text,"<p>I accidentally set my text and screen display the same color. Now I am unable to see anything in Firefox. I am using MacOS. I have attempted to check the Application Support to modify the folder that stores  the preferences folder, but Firefox is not listed.  Thanks </p>",desktop;customize;,firefox,customize,en-US,"",twimberly83
