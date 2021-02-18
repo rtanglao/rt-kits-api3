@@ -1,1 +1,2 @@
 id,created,updated,title,content,tags,product,topic,locale,answers,creator
+1326296,2021-02-17 16:18:42 -0800,2021-02-17 16:18:42 -0800,Installation issues,"<p>I am trying to re-install Firefox but seems never to complete the installation. It does not open any websites and does not appear to connect to the internet. Also, I receive a message that the file VCRUNTIME_1.dll is missing; however, when attempting to download  the file, it tells me the file is already installed. </p>",desktop;download-and-install_1;,firefox,download-and-install,en-US,"",mbm15
