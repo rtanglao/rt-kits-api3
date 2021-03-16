@@ -1,0 +1,2 @@
+id,created,updated,title,content,tags,product,topic,locale,answers,creator
+1329427,2021-03-15 17:25:37 -0700,2021-03-15 17:25:37 -0700,video issues after refresing,"<p>I refreshed my Firefox and now when I go to stream FIOS TV through my home computer connected directly to the router, I get the error message DRM: licenser error! --com.widevine.alpha update, XHR error. status is """" (0), readyState is 4.   DRM is checked off in my settings and the widevine plugin is enabled. HELP </p>",desktop;fix-problems;windows-10;firefox-860;,firefox,fix-problems,en-US,"",horses721
