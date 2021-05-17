@@ -1,4 +1,6 @@
 id,created,updated,title,content,tags,product,topic,locale,answers,creator
+1336371,2021-05-17 02:51:33 -0700,2021-05-17 02:51:33 -0700,update my fire fox,<p>reza mohammadi kian </p>,windows-7;desktop;sync;firefox-520;,firefox,sync,en-US,"",rastakhizan0098
+1336370,2021-05-17 02:50:47 -0700,2021-05-17 02:50:47 -0700,reza luxuri,<p>reza mohammadi kian </p>,windows-7;desktop;sync;firefox-520;,firefox,sync,en-US,"",rastakhizan0098
 1336369,2021-05-17 02:26:55 -0700,2021-05-17 02:26:55 -0700,View Source Style,"<p>Merhaba, kaynak görüntüleyiciğimdeki renkler kayboldu ve sadece siyah beyaz gözüküyor. Bazen solda ki sayılarda gelmiyor. </p>",mac-os;desktop;other;firefox-880;,firefox,other,tr,"",ekaya
 1336367,2021-05-17 01:59:14 -0700,2021-05-17 01:59:14 -0700,"Bold(<b> or <strong>) chars display a annoying ""black line"" on the right side.","<p>when I open a website with some bold text, the bold text display not as exception. a black line on the right side of the char makes me mad. but it disappeared after zoom in 120% the page. </p>",desktop;websites;ubuntu;firefox-880;,firefox,websites,en-US,"",NaAlOH4
 1336364,2021-05-17 01:03:23 -0700,2021-05-17 01:54:34 -0700,Update,"<p>Good morning. ""DisableAppUpdate = true""  How can I change it as Admin.? Thanks a lot, Ton </p>",desktop;fix-problems;windows-81;firefox-880;,firefox,fix-problems,en-US,1413302;,toni.haener
