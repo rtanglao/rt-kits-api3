@@ -1,4 +1,5 @@
 id,created,updated,title,content,tags,product,topic,locale,answers,creator
+1343962,2021-07-15 12:35:46 -0700,2021-07-15 12:35:46 -0700,Problems Receiving Emails on Thunderbird,"<p>I just suddenly started not receiving my emails on one of my email accounts that are connected to Thunderbird. It seems that I can send, but I can't receive. When I push the ""get messages"" button it states that I'm connected to my email account, but nothing comes in. </p>",desktop;other;,firefox,other,en-US,"",ynglion
 1343961,2021-07-15 12:31:37 -0700,2021-07-15 12:31:37 -0700,ALL APP,<p>ALL APP </p>,windows-7;desktop;download-and-install_1;firefox-890;,firefox,download-and-install,en-US,"",heydariam20
 1343960,2021-07-15 12:30:43 -0700,2021-07-15 12:30:43 -0700,DOWNLOAD,<p>ALL APP </p>,windows-7;desktop;download-and-install_1;firefox-890;firefox-8902;,firefox,download-and-install,en-US,"",heydariam20
 1343958,2021-07-15 12:15:49 -0700,2021-07-15 12:15:49 -0700,how to extend timeout,<p>how can I extend the timeout when I try to find a server? </p>,windows-7;desktop;fix-problems;firefox-890;,firefox,fix-problems,en-US,"",kensatfirefox
