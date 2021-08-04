@@ -1,1 +1,2 @@
 id,created,updated,title,content,tags,product,topic,locale,answers,creator
+1345932,2021-08-03 17:28:58 -0700,2021-08-03 17:28:58 -0700,Firefox Nightly Freezes on Opening - Windows 11,<p>Firefox Nightly will freeze on opening in the first instance on Windows 11 about 75% of the time. </p><p>I have to open a new instance for it to load.  Old instance stays frozen and eventually throws up an error </p>,desktop;fix-problems;,firefox,fix-problems,en-US,"",ben106
