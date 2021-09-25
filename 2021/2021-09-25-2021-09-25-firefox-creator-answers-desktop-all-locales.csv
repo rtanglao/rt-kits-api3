@@ -1,1 +1,2 @@
 id,created,updated,title,content,tags,product,topic,locale,answers,creator
+1351723,2021-09-24 17:05:53 -0700,2021-09-24 17:05:53 -0700,CSS Element Changed in Firefox v91,"<p>Disabling this History menu label with CSS works in Firefox v78, but not in v91: </p> <ol><li>PanelUI-history label[value=""Recent History""] {display:none !important;} </li></ol> <p>BTW, the label is now ""Recent history"". </p>",desktop;customize;windows-10;firefox-910;,firefox,customize,en-US,"",silly1
