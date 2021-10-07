@@ -1,0 +1,2 @@
+id,created,updated,title,content,tags,product,topic,locale,answers,creator
+1353053,2021-10-06 17:00:05 -0700,2021-10-06 17:00:05 -0700,Icone de favoritos não aparece a imagem,"<p>O icone de favoritos não carrega a imagem de icon do site, realizado o teste em outros navegadores e todos após salvar como favoritos aparece a imagem na barra. Anexo imagem do mesmo site salve pelo Firefox e salvo pelo Google Chrome. </p>",desktop;bookmarks;windows-10;firefox-930;,firefox,bookmarks,pt-BR,"",caiosherman
