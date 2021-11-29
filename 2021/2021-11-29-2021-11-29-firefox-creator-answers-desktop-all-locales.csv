@@ -1,0 +1,2 @@
+id,created,updated,title,content,tags,product,topic,locale,answers,creator
+1359416,2021-11-28 16:07:37 -0800,2021-11-28 16:07:37 -0800,how would i use the save page as function in firefox with out opening a window in bash,"<p>How would i use the save page as function in firefox with out opening a window in bash. So like ""firefox --savepage <a href=""http://example.com"" rel=""nofollow"">example.com</a> "". Why well i need to download a webpage that needs js to load. </p>",linux;desktop;other;firefox-940;,firefox,other,en-US,"",lnee_94
