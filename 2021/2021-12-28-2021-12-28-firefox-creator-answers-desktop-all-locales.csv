@@ -1,0 +1,2 @@
+id,created,updated,title,content,tags,product,topic,locale,answers,creator
+1362427,2021-12-27 16:21:09 -0800,2021-12-27 16:21:09 -0800,"When using a custom profile, I cannot get the ""fill in remembered logins"" setting to persist between sessions.","<p>I've tried editing prefs.js, which made no difference. I've also noticed a prefs sqllite file, but I don't know how to unlock it. What should I do? </p><p>I'm on Linux, firefox 95 in case it matters. </p>",linux;desktop;customize;firefox-950;,firefox,customize,en-US,"",liranpiade
