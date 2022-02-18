@@ -1,0 +1,2 @@
+id,created,updated,title,content,tags,product,topic,locale,answers,creator
+1368389,2022-02-17 16:11:05 -0800,2022-02-17 16:11:05 -0800,Port 9573,"<p>I have extensions installed -ublock origin, https everywhere, decentraleyes, foxygestures, noscript </p><p>Firewall detected firefox connecting to <a href=""http://ec2-54-234-70-68.compute-1.amazonaws.com"" rel=""nofollow"">ec2-54-234-70-68.compute-1.amazonaws.com</a> on port 9573 </p><p>What is this? </p>",linux;desktop;other;,firefox,other,en-US,"",firefox1740
