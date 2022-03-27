@@ -6,6 +6,13 @@
 
 ## 27march2022 get by month sample SQL query
 
+## Sort CSV file by column 1: id
+
+```bash
+csvsort -c 1 -d , 2021-yearly-ff-questions-en-us.csv \ 
+> sorted-by-id-2021-yearly-ff-questions-en-us.csv
+```
+
 ### Better query to order by date
 
 ```sql
