@@ -4,6 +4,12 @@
 
 ![get latest Firefox desktop questions](https://github.com/rtanglao/rt-kits-api3/workflows/get%20latest%20Firefox%20desktop%20questions/badge.svg)
 
+## 27march2022 create sqlite file
+
+```bash
+roland@Rolands-MacBook-Air YEARLY_CSV_FILES % csvs-to-sqlite *.csv -dt created \ 
+-dt updated 2021-firefox-sumo-questions.db
+```
 ## 27march2022 get yearly CSV files
 
 ```bash
