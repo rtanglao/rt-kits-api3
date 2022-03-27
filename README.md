@@ -6,6 +6,13 @@
 
 ## 27march2022 get by month sample SQL query
 
+```sql
+SELECT count (*) as 'number of questions by day'
+FROM "2021-yearly-ff-questions-en-us"  
+WHERE created >= date('2021-01-01', 'localtime') 
+AND created  <  date('2021-02-01', 'localtime')
+GROUP by strftime('%j', created);
+```
 ## Sort CSV file by column 1: id
 
 * `-c` which column to sort <-- column 1 is the `id` column, `-d ,` <-- sets the delimiter to comma
