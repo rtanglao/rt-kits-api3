@@ -5,6 +5,8 @@
 ![get latest Firefox desktop questions](https://github.com/rtanglao/rt-kits-api3/workflows/get%20latest%20Firefox%20desktop%20questions/badge.svg)
 
 ## 27march2022 get by month sample SQL query
+
+### Query
 * using sql query from stack overflow: [How to select rows by date in sqlite](https://stackoverflow.com/questions/13020611/how-to-select-rows-by-date-in-sqlite) (the pacific time zone offset "-0800" appears ok?!?)
 
 ```sql
@@ -12,12 +14,21 @@ SELECT id, created from  "2021-yearly-ff-questions-en-us"  WHERE
  created >= date('2021-01-01') AND created  <  date('2021-02-01');
  Execution finished without errors.
 ```
-* output:
+### Output:
 ```
 Result: 2184 rows returned in 41ms
 At line 1:
 SELECT id, created, tags from  "2021-yearly-ff-questions-en-us"  WHERE
  created >= date('2021-01-01') AND created  <  date('2021-02-01');
+```
+
+### Output as SQL
+
+* 1 line of the output
+
+```sql
+INSERT INTO "main"."" ("id", "created", "tags") VALUES ('1320202', '2021-01-01T14:40:25-08:00', 
+'desktop;other;windows-10;firefox-840;firefox-8401;');
 ```
 
 ## 27march2022 create sqlite file
