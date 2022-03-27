@@ -12,8 +12,8 @@ SELECT id, created from  "2021-yearly-ff-questions-en-us"  WHERE
  created >= date('2021-01-01') AND created  <  date('2021-02-01');
  Execution finished without errors.
 ```
-
-
+* output:
+```
 Result: 2184 rows returned in 41ms
 At line 1:
 SELECT id, created, tags from  "2021-yearly-ff-questions-en-us"  WHERE
