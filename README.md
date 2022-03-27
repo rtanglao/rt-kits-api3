@@ -6,6 +6,13 @@
 
 ## 27march2022 get by month sample SQL query
 
+### Better query to order by date
+
+```sql
+ created >= date('2021-01-01') AND created  <  date('2021-02-01')
+ ORDER BY created ASC;
+ ```
+ 
 ### Query
 * using sql query from stack overflow: [How to select rows by date in sqlite](https://stackoverflow.com/questions/13020611/how-to-select-rows-by-date-in-sqlite) (the pacific time zone offset "-0800" appears ok?!?)
 
