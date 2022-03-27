@@ -8,6 +8,8 @@
 
 ## Sort CSV file by column 1: id
 
+* `-c` which column to sort, `-d ,`, set the delimiter to comma
+
 ```bash
 csvsort -c 1 -d , 2021-yearly-ff-questions-en-us.csv \ 
 > sorted-by-id-2021-yearly-ff-questions-en-us.csv
