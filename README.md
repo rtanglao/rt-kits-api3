@@ -4,7 +4,16 @@
 
 ![get latest Firefox desktop questions](https://github.com/rtanglao/rt-kits-api3/workflows/get%20latest%20Firefox%20desktop%20questions/badge.svg)
 
-## 27march2022 get by month sample SQL query
+## 27march2022 get by day of the year SQL query
+
+```sql
+SELECT created, count (*) as 'number of questions by day'
+FROM "2021-yearly-ff-questions-en-us"  
+WHERE created >= date('2021-01-01', 'localtime') 
+AND created  <  date('2022-01-01', 'localtime')
+GROUP by strftime('%j', created);
+```
+## 27march2022 get by month example SQL query
 
 ```sql
 SELECT count (*) as 'number of questions by day'
