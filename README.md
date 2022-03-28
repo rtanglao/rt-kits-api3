@@ -7,11 +7,11 @@
 ## 27march2022 get by day of the year SQL query
 
 ```sql
-SELECT created, count (*) as 'number of questions by day'
+SELECT strftime('%Y-%m-%d', created) AS yyyymmdd, count (*) as 'num_SUMO_questions'
 FROM "2021-yearly-ff-questions-en-us"  
 WHERE created >= date('2021-01-01', 'localtime') 
 AND created  <  date('2022-01-01', 'localtime')
-GROUP by strftime('%j', created);
+GROUP BY yyyymmdd
 ```
 ## 27march2022 get by month example SQL query
 
