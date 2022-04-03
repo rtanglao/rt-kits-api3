@@ -4,6 +4,13 @@
 
 ![get latest Firefox desktop questions](https://github.com/rtanglao/rt-kits-api3/workflows/get%20latest%20Firefox%20desktop%20questions/badge.svg)
 
+## 02april2022 add a column to a CSV file
+```bash
+roland@Rolands-MacBook-Air YEARLY_CSV_FILES % csvjoin -c "id,id,id" csv1.csv csv2.csv csv3.csv 
+id,stuff,stuff2,stuff3
+1,22,stuff21,stuff31
+2,44,stuff22,stuff32
+```
 ## 27march2022 get by day of the year SQL query
 
 ```sql
