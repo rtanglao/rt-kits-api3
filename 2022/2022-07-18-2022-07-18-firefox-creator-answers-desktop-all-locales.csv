@@ -1,4 +1,5 @@
 id,created,updated,title,content,tags,product,topic,locale,answers,creator
+1383329,2022-07-18 15:34:42 -0700,2022-07-18 15:34:42 -0700,can't restore  tabs,"<p>All tabs crashed. I try to restore a single tab, and all tabs, but doesn't work. </p>",desktop;tabs;windows-10;,firefox,tabs,en-US,"",wroberts4
 1383328,2022-07-18 15:18:16 -0700,2022-07-18 15:18:16 -0700,Electrical,<p>Jirachuuf </p>,desktop;sync;,firefox,sync,en-US,"",nasruidris
 1383327,2022-07-18 15:15:48 -0700,2022-07-18 15:15:48 -0700,Electrical,<p>Fayadaudhaaf dalagutti jiraa </p>,desktop;other;,firefox,other,en-US,"",nasruidris
 1383326,2022-07-18 15:03:37 -0700,2022-07-18 15:27:00 -0700,How do I block emails from one sender?,<p>How do I block emails from one sender? </p>,desktop;other;windows-10;firefox-1020;firefox-10201;,firefox,other,en-US,1520650;,j.watne
