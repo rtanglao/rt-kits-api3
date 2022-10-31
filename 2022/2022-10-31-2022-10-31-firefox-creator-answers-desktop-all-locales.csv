@@ -1,0 +1,2 @@
+id,created,updated,title,content,tags,product,topic,locale,answers,creator
+1395194,2022-10-30 17:56:26 -0700,2022-10-30 17:56:26 -0700,Bookmark export,"<p>v102.3.3  Address book export gives ""Export accounts, messages, address books,m and settings to a ZIP"" . I only want to export the address books not the everything. The file it creates is almost 3G. </p>",desktop;bookmarks;,firefox,bookmarks,en-US,"",ianbleckly
