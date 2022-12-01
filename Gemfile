@@ -11,4 +11,4 @@ gem 'time'
 gem 'date'
 gem 'csv'
 gem 'logger'
-gem 'ffi'
+
