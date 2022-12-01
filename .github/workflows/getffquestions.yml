@@ -15,26 +15,19 @@ on:
       
 jobs:
   scheduled:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-18.04
 
     steps:
     - uses: actions/checkout@v3
-#    - name: Set up Ruby
+    - name: Set up Ruby
     # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
     # change this to (see https://github.com/ruby/setup-ruby#versioning):
     # uses: ruby/setup-ruby@v1
- #     uses: ruby/setup-ruby@v1
- #     with:
- #       bundler-cache: false  
- #       cache-version: 2
- #       ruby-version: '2.7'
-    - name: cache gems
-    - uses: actions/cache@v2
+      uses: ruby/setup-ruby@v1
       with:
-        path: vendor/bundle
-        key: ${{ runner.os }}-new-gems-${{ hashFiles('**/Gemfile.lock') }}
-        restore-keys: |
-           ${{ runner.os }}-new-gems-
+        bundler-cache: true  
+        cache-version: 3
+        ruby-version: '2.7'
     - name: Install dependencies
       run: |-
         bundle install
