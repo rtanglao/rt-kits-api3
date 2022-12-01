@@ -10,6 +10,7 @@ GEM
     json (2.6.2)
     logger (1.5.1)
     time (0.2.0)
+      date
     typhoeus (1.4.0)
       ethon (>= 0.9.0)
 
@@ -26,4 +27,4 @@ DEPENDENCIES
   typhoeus
 
 BUNDLED WITH
-   2.1.4
+   2.3.26
