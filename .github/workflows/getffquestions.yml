@@ -23,11 +23,17 @@ jobs:
     # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
     # change this to (see https://github.com/ruby/setup-ruby#versioning):
     # uses: ruby/setup-ruby@v1
-      uses: ruby/setup-ruby@v1
+ #     uses: ruby/setup-ruby@v1
+ #     with:
+ #       bundler-cache: false  
+ #       cache-version: 2
+ #       ruby-version: '2.7'
+    - uses: actions/cache@v1
       with:
-        bundler-cache: false  
-        cache-version: 2
-        ruby-version: '2.7'
+        path: vendor/bundle
+        key: ${{ runner.os }}-new-gems-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+           ${{ runner.os }}-new-gems-
     - name: Install dependencies
       run: |-
         bundle install
