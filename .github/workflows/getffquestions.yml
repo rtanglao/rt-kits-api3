@@ -19,7 +19,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Set up Ruby
+#    - name: Set up Ruby
     # To automatically get bug fixes and new Ruby versions for ruby/setup-ruby,
     # change this to (see https://github.com/ruby/setup-ruby#versioning):
     # uses: ruby/setup-ruby@v1
@@ -28,7 +28,8 @@ jobs:
  #       bundler-cache: false  
  #       cache-version: 2
  #       ruby-version: '2.7'
-    - uses: actions/cache@v1
+    - name: cache gems
+    - uses: actions/cache@v2
       with:
         path: vendor/bundle
         key: ${{ runner.os }}-new-gems-${{ hashFiles('**/Gemfile.lock') }}
