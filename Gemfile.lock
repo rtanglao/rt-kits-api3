@@ -21,6 +21,7 @@ DEPENDENCIES
   amazing_print
   csv
   date
+  ffi
   json
   logger
   time
