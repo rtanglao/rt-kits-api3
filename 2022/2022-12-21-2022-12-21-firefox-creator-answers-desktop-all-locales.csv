@@ -1,4 +1,5 @@
 id,created,updated,title,content,tags,product,topic,locale,answers,creator
+1400217,2022-12-20 19:29:57 -0800,2022-12-20 19:29:57 -0800,my laptop (HP Envy) screen is monochrome. Unable to change to colour,<p>screen is locked on monochrome mode </p>,desktop;customize;windows-11;firefox-1080;firefox-10801;,firefox,customize,en-US,"",brinsmk
 1400215,2022-12-20 18:47:28 -0800,2022-12-20 18:47:28 -0800,Ride with GPS. Unable to send a route to someone via E-mail,<p>Unable to send a route to someone via E-mail. </p>,desktop;other;windows-10;firefox-1080;firefox-10801;,firefox,other,en-US,"",Fesette
 1400214,2022-12-20 18:47:25 -0800,2022-12-20 18:47:25 -0800,Language chosen by me for all tasks.,<p>Allow only English to be used in my tasks. </p>,desktop;customize;windows-10;firefox-1080;firefox-10801;,firefox,customize,en-US,"",pablo.c.temp
 1400212,2022-12-20 18:11:21 -0800,2022-12-20 18:11:21 -0800,Pop up window.......,<p>Uncaught type error at app.js: i is undefined </p><p>I get this popup window and then the web page is blank or does not work????? </p>,desktop;mac-os-x-1011;website-breakages;,firefox,website-breakages,en-US,"",llmcclean
