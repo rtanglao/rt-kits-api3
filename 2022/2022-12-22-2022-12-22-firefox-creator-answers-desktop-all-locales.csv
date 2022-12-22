@@ -1,0 +1,2 @@
+id,created,updated,title,content,tags,product,topic,locale,answers,creator
+1400308,2022-12-21 16:56:44 -0800,2022-12-21 16:56:44 -0800,Firefox on Debian 10 pulseaudio only right channel,"<p>Hi I am using Firefox on Debian 10, and it just plays audio to the pulseaudio server to the right channel. No idea why.  Other applications are serving audio in stereo.  Any other reports of this or fix? </p>",linux;desktop;other;firefox-10260;firefox-1026;,firefox,other,en-US,"",isac.petruzzi
