@@ -4,6 +4,8 @@
 
 ![get latest Firefox desktop questions](https://github.com/rtanglao/rt-kits-api3/workflows/get%20latest%20Firefox%20desktop%20questions/badge.svg)
 
+## 10april2023 issue 3686 still fails
+* `./testAPI-issue-3686.rb`  still fails i.e. the time on the website is pacific but the time returned from the API says `Z` i.e. ``UTC`` but is actually ``PST`` (see [gist](https://gist.github.com/rtanglao/78d840c3f0b1f80312e895a5fd054ce3) for full details). IIRC this is because the timestamps are in the database and hard to change because of the database migration required.
 ## 02april2022 add a column to a CSV file
 ```bash
 roland@Rolands-MacBook-Air YEARLY_CSV_FILES % csvjoin -c "id,id,id" csv1.csv csv2.csv csv3.csv 
