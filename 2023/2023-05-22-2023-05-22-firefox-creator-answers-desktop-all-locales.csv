@@ -1,0 +1,2 @@
+id,created,updated,title,content,tags,product,topic,locale,answers,creator
+1413896,2023-05-21 17:27:29 -0700,2023-05-21 17:27:29 -0700,video darker and high contrast,"<p>when playing videos, firefox makes the videos much darker and higher contrast than the original videos, as well as maxing out the cpu on my laptop when playing video, started a day ago or so. </p>",desktop;fix-problems;windows-10;firefox-1130;firefox-11301;,firefox,fix-problems,en-US,"",ftorgrimsen
