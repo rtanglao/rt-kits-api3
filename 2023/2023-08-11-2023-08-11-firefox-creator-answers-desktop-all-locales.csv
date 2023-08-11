@@ -1,0 +1,2 @@
+id,created,updated,title,content,tags,product,topic,locale,answers,creator
+1420863,2023-08-10 17:30:05 -0700,2023-08-10 17:30:05 -0700,Unable to sign in,"<p>I am getting this message when attempting to log in. </p><p><br> An error occurred during a connection to <a href=""http://tv.onesearch.org"" rel=""nofollow"">tv.onesearch.org</a>. Peer’s Certificate has been revoked. </p><p>Error code: SEC_ERROR_REVOKED_CERTIFICATE </p>",desktop;other;mac-os-x-1015;firefox-1110;firefox-11101;,firefox,other,en-US,"",smokeybare
