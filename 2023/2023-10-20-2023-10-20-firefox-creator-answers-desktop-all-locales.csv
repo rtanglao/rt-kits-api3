@@ -1,0 +1,2 @@
+id,created,updated,title,content,tags,product,topic,locale,answers,creator
+1428193,2023-10-19 17:05:36 -0700,2023-10-19 17:05:36 -0700,Mozilla vpn integration failing with Firefox Multi-containers addon,"<p>Hi, MozillaVpn integration with firefox multi-containers extension suddenly stopped working for me. I am looking for support to fix it. </p>",desktop;other;ubuntu-2204;,firefox,other,en-US,"",abdullahanam
