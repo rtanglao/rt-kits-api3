@@ -1,0 +1,2 @@
+id,created,updated,title,content,tags,product,topic,locale,answers,creator
+1429228,2023-10-28 17:33:02 -0700,2023-10-28 17:33:02 -0700,font issues,<p>I am having trouble with fonts on firefox and I cannot seem to fix the issue after upgrading / downgrading and then going with FireFox ESR on macOS Sonoma 14.1 how should I properly fix the issue I did turn off allow sites to display their own font but I would really like to know if that is the right fix. </p><p>See attached and thank you for your time </p>,desktop;other;mac-os-x-1015;,firefox,other,en-US,"",houseguest
