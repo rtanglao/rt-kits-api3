@@ -1,0 +1,3 @@
+id,created,updated,title,content,tags,product,topic,locale,answers,creator
+1435784,2024-01-04 16:51:54 -0800,2024-01-04 16:51:54 -0800,Firefox Crashes After Download,<p>Once I download a file using Firefox attempts to install result in the browser crashing. </p><p>This doesn't happen with other browsers. </p>,desktop;fix-problems;windows-11;firefox-1210;,firefox,fix-problems,en-US,"",harrisstacy
+1435783,2024-01-04 16:51:42 -0800,2024-01-04 16:51:42 -0800,Lost pinned sites in homepage after sync on new firefox install,<p>I installed firefox on a new pc and after loggin in and syncing my account all my pinned sites on the firefox homepage disappeared. Is there any way i can get them back? </p>,desktop;bookmarks;windows-11;firefox-1210;,firefox,bookmarks,en-US,"",ivar.nuij
