@@ -4,6 +4,10 @@
 
 ![get latest Firefox desktop questions](https://github.com/rtanglao/rt-kits-api3/workflows/get%20latest%20Firefox%20desktop%20questions/badge.svg)
 
+## 2024-03-06 issue 3686 still fails
+
+* `https://support.mozilla.org/api/2/question/1441694/` still returns `created:	"2024-03-06T14:48:31.939449Z"` the bug is that it should be `created:	"2024-03-06T22:48:31.939449Z"`
+
 ## 2023-09-19 issue 3686 still fails :-)
 ```bash
 roland@Rolands-MacBook-Pro rt-kits-api3 % ./testAPI-issue-3686.rb  
