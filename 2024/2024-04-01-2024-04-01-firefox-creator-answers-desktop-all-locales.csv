@@ -1,0 +1,2 @@
+id,created,updated,title,content,tags,product,topic,locale,answers,creator
+1443727,2024-03-31 18:27:50 -0700,2024-03-31 18:27:50 -0700,Allow certain extensions to run only in private windows,"<p>I want certain extensions to be able to run in private windows, but not in normal windows. For example, I would browse normally without a VPN extension, and when I open a private window, the VPN extension would be enabled. </p>",desktop;customize;windows-10;firefox-1230;,firefox,customize,en-US,"",strongsand94191
