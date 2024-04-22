@@ -1,4 +1,5 @@
 id,created,updated,title,content,tags,product,topic,locale,answers,creator
+1445495,2024-04-21 22:56:28 -0700,2024-04-21 22:56:28 -0700,FF neotevře stránku www.google.com,"<p>FF neotevře stránku <a href=""http://www.google.com"" rel=""nofollow"">www.google.com</a> </p>",desktop;privacy-and-security_1;windows-10;firefox-1250;firefox-12501;,firefox,privacy-and-security,cs,"",p.pika
 1445493,2024-04-21 21:33:52 -0700,2024-04-21 21:33:52 -0700,FIREFOX SUCKS.,<p>PLAY NETFLIX. </p>,desktop;mac-os-x-1015;website-breakages;firefox-1250;firefox-12501;,firefox,website-breakages,en-US,"",erik.roth
 1445492,2024-04-21 21:32:28 -0700,2024-04-21 21:32:28 -0700,-Error Code F7701-1003,<p>PLAY NETFLIX. </p>,desktop;other;mac-os-x-1015;firefox-1250;firefox-12501;,firefox,other,en-US,"",erik.roth
 1445491,2024-04-21 20:42:18 -0700,2024-04-21 21:54:15 -0700,auto refreshing,<p>When I'm scrolling down the page reload automatically and this is annoying.  How can I stop refreshing the page by scrolling down? I want refresh manually please </p>,desktop;other;,firefox,other,en-US,"",mmqwee1234
