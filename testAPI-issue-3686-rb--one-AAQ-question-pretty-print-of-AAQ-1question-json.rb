@@ -21,7 +21,7 @@
 "avatar" => "https://firefoxusercontent.com/a6acb0932f1dcc47ef32212bc9ad9394"
 },
        "id" => 1259114,
- "involved" => [
+"involved" => [
 [0] {
   "username" => "jscher2000",
 "display_name" => "jscher2000 - Support Volunteer",
@@ -41,11 +41,11 @@
 "is_archived" => true,
 "is_locked" => false,
 "is_solved" => false,
-  "is_spam" => false,
- "is_taken" => false,
+"is_spam" => false,
+"is_taken" => false,
 "last_answer" => 1225628,
    "locale" => "en-US",
- "metadata" => [
+"metadata" => [
 [0] {
 "name" => "useragent",
 "value" => "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:66.0) Gecko/20100101 Firefox/66.0"
@@ -71,7 +71,7 @@
 "value" => "privacy-and-security"
 }
 ],
-     "tags" => [
+"tags" => [
 [0] {
 "name" => "Mac OS",
 "slug" => "mac-os"
@@ -92,13 +92,13 @@
 "num_answers" => 12,
 "num_votes_past_week" => 0,
 "num_votes" => 1,
-  "product" => "firefox",
- "solution" => nil,
+"product" => "firefox",
+"solution" => nil,
 "solved_by" => nil,
 "taken_until" => nil,
- "taken_by" => nil,
+"taken_by" => nil,
     "title" => "Firefox doesn't seem to be allowing websites to \"remember <random thing>\".",
     "topic" => "privacy-and-security",
 "updated_by" => nil,
-  "updated" => "2019-05-27T12:18:25Z"
+"updated" => "2019-05-27T12:18:25Z"
 }
