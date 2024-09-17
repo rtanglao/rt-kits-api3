@@ -1,0 +1,2 @@
+id,created,updated,title,content,tags,product,topic,locale,answers,creator
+1463962,2024-09-16 17:35:04 -0700,2024-09-16 17:35:04 -0700,Bookmarks toolbar - length of link description,<p>Is there a way that I can modify a css script to allow more text from a webpage link to appear in the bookmarks toolbar at the top of the page? The standard 18-20 characters isn't always enough.  Thanks. </p>,firefox;browse;,firefox,browse,en-US,"",swizzen03
