@@ -1,4 +1,10 @@
 id,created,updated,title,content,tags,product,topic,locale,answers,creator
+1486828,2025-01-17 19:26:16 -0800,2025-01-17 19:26:16 -0800,Crashes since update to 128.5.2esr to 128.5.2esr,<p>Since updating Thunderbird crashes shortly after starting or sooner if I initiate an update check. If I pull the internet connection and the update check fails it doesn't crash. </p>,windows-11;firefox;installation-and-updates;,firefox,installation-and-updates,en-US,"",ericc3
+1486827,2025-01-17 19:25:12 -0800,2025-01-17 19:25:12 -0800,eslavo,<p>Support </p>,firefox;accounts;,firefox,accounts,es,"",mhajou989
+1486826,2025-01-17 19:23:54 -0800,2025-01-17 19:23:54 -0800,Possible to create a shortcut to a theme?,<p>How to create a desktop shortcut to Tools\Addons and Themes\Dark Reader? </p>,firefox;performance-and-connectivity;,firefox,performance-and-connectivity,en-US,"",wonklertoo
+1486825,2025-01-17 19:21:17 -0800,2025-01-17 19:21:17 -0800,e firefox primary,<p>make firefox primary </p>,firefox;settings;,firefox,settings,en-US,"",GARFEATHERS
+1486821,2025-01-17 18:55:40 -0800,2025-01-17 18:56:22 -0800,MY MONEY .$.$.,"<p>""Haben"". </p>",firefox;settings;,firefox,settings,en-US,1704501;,pjajaengdee
+1486820,2025-01-17 18:54:05 -0800,2025-01-17 18:54:05 -0800,MY MONEY $.$.$.,"<p>""Haben"" . </p>",firefox;settings;,firefox,settings,en-US,"",pjajaengdee
 1486819,2025-01-17 18:28:28 -0800,2025-01-17 18:28:28 -0800,Browser goes to black,<p>Repair </p>,firefox;browse;,firefox,browse,en-US,"",bchall032
 1486818,2025-01-17 18:24:00 -0800,2025-01-17 18:24:00 -0800,INSTAL,<p>INSTAL PLISS </p>,firefox;installation-and-updates;,firefox,installation-and-updates,en-US,"",faning.mld
 1486815,2025-01-17 18:12:19 -0800,2025-01-17 18:12:19 -0800,Photo recover,<p>Backup </p>,firefox;backup-recovery-and-sync;,firefox,backup-recovery-and-sync,en-US,"",mprajput2000
