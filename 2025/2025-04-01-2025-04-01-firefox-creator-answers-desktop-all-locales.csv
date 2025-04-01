@@ -1,4 +1,8 @@
 id,created,updated,title,content,tags,product,topic,locale,answers,creator
+1502990,2025-03-31 22:30:31 -0700,2025-03-31 22:30:31 -0700,abcdl,<p>&lt;script&gt;alert('XSS')&lt;/script&gt; </p>,firefox;accessibility;,firefox,accessibility,en-US,"",rrunomoz
+1502989,2025-03-31 22:25:12 -0700,2025-03-31 22:25:12 -0700,abcdl,<p>&lt;alert&gt;abcd&lt;/alert&gt; </p>,firefox;accessibility;,firefox,accessibility,en-US,"",rrunomoz
+1502988,2025-03-31 22:12:53 -0700,2025-03-31 22:12:53 -0700,Account recovery,<p>My LinkedIn account is corrupted. I can't login . </p>,firefox;backup-recovery-and-sync;,firefox,backup-recovery-and-sync,en-US,"",adugnaalemneh87
+1502987,2025-03-31 22:02:12 -0700,2025-03-31 22:02:20 -0700,CYDYTD,<p><strong>YGHGG </strong> </p><p><br> <strong></strong> </p>,firefox;settings;needsinfo;,firefox,settings,en-US,1722484;,biswaskushal300
 1502984,2025-03-31 21:34:57 -0700,2025-03-31 21:34:57 -0700,about firefox,<p>Update 136.0 </p>,firefox;installation-and-updates;,firefox,installation-and-updates,en-US,"",paulveltema
 1502983,2025-03-31 21:31:39 -0700,2025-03-31 21:31:39 -0700,desiremovies.cx,"<p><a href=""https://desiremovies.cx/"" rel=""nofollow"">https://desiremovies.cx/</a> dont open </p>",firefox;browse;,firefox,browse,en-US,"",kanhaiyathakur048
 1502979,2025-03-31 21:08:46 -0700,2025-03-31 21:08:46 -0700,SECURE CONNECTION FAILED,<p>SOLVE THE PROBLEM SECYRE CONECTION FAILED </p>,firefox;accounts;,firefox,accounts,en-US,"",sharmagakka
