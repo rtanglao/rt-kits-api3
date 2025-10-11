@@ -1,0 +1,2 @@
+id,created,updated,title,content,tags,product,topic,locale,answers,creator
+1540643,2025-10-10 18:45:46 -0700,2025-10-10 18:45:46 -0700,网校视频无法播放，且在第一次登录的时候提示浏览器的兼容性有问题，但其他浏览器可以正常使用。,"<p>我在登陆 <a href=""https://www.gaodun.com/"" rel=""nofollow"">https://www.gaodun.com/</a> 时，提示兼容性有问题，继续登录后，无法播放网站的学习视频。 </p>",firefox-14304;firefox-1430;windows-11;firefox;web-compatibility;,firefox,web-compatibility,en-US,"",anna552
