@@ -1,0 +1,3 @@
+id,created,updated,title,content,tags,product,topic,locale,answers,creator
+1561741,2026-01-22 16:33:13 -0800,2026-01-22 16:33:13 -0800,Tab Issue,<p>clicks on tabs do not register past the 5th opened tab. how do i fix this </p>,firefox-14701;firefox-1470;mac-os-x-1015;firefox;tabs;,firefox,tabs,en-US,"",daniel.sean.mcnamee
+1561740,2026-01-22 16:29:22 -0800,2026-01-22 16:29:22 -0800,bookmarks,<p>Where did ALL my bookmarks go to? </p>,firefox-1470;windows-10;firefox;bookmarks;,firefox,bookmarks,en-US,"",vint54
