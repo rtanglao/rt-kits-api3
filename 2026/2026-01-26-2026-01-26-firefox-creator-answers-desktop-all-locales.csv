@@ -1,0 +1,4 @@
+id,created,updated,title,content,tags,product,topic,locale,answers,creator
+1562262,2026-01-25 16:43:39 -0800,2026-01-25 16:43:39 -0800,actualizar el firefox,<p>quiero tener wsp en la compu pero me pide actualizar </p>,firefox-9102;firefox-910;linux;firefox;update;,firefox,update,es,"",barbozamicaela914
+1562261,2026-01-25 16:41:48 -0800,2026-01-25 16:41:48 -0800,linux firefox apt install prioirty,<p>When attempting install firefox on linux using the recommended install method (in order to use 1password fully i cannot install it via snap) the priority does not change from 500 to 1000 using the parameters described in the install guide. Here is an image showing my issue. </p>,firefox;install;,firefox,install,en-US,"",bsand18
+1562260,2026-01-25 16:08:37 -0800,2026-01-25 16:08:37 -0800,rowl7,<p><strong>djsjdjs </strong> <strong></strong> </p>,firefox-10901;firefox-1090;linux;firefox;accessibility;,firefox,accessibility,en-US,"",roellesho
